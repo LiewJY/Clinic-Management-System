@@ -1,0 +1,40 @@
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\bin\Debug\Oceana Clinic Management System.exe.config
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\bin\Debug\Oceana Clinic Management System.exe
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\bin\Debug\Oceana Clinic Management System.pdb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\bin\Debug\Oceana Clinic Management System.xml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System.vbprojAssemblyReference.cache
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\MainWindow.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Application.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System_MarkupCompile.cache
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System_MarkupCompile.lref
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\MainWindow.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System.g.resources
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana_Clinic_Management_System.Resources.resources
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System.vbproj.GenerateResource.cache
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System.exe
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System.xml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Oceana Clinic Management System.pdb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\AdminForm.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Doctor\DoctorForm.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\NurseForm.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\AdminForm.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Doctor\DoctorForm.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\NurseForm.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\AddUser.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\RemoveUser.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\UpdateUserInfo.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\AddUser.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\RemoveUser.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Admin\UpdateUserInfo.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\AddNewPatient.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\Billing.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\UpdatePatientInformation.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\AddNewPatient.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\Billing.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\UpdatePatientInformation.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\AddMedicineAndServices.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\AddMedicineAndServices.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Doctor\PatientHistory.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Doctor\PatientHistory.baml
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\AddNewMedicine.g.vb
+D:\assignment vbn\Oceana Clinic Management System\Oceana Clinic Management System\obj\Debug\Nurse\AddNewMedicine.baml

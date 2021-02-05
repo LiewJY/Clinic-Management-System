@@ -1,0 +1,125 @@
+﻿<Window x:Class="AdminForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oceana_Clinic_Management_System"
+        mc:Ignorable="d"
+        Title="Oceana Clinic"
+        Background="White"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Normal"
+        WindowStyle="ThreeDBorderWindow"
+        Icon="/Graphics/oceana logo.png"
+        Height="700" Width="1280">
+
+    <Window.Resources>
+        <Style x:Key="menubutton" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border  Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+
+        <Grid>
+            <!-- define table column and row-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180" MaxWidth="180"></ColumnDefinition>
+                <ColumnDefinition Width="*" ></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <!--dockpanel for top bar-->
+            <DockPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
+                       VerticalAlignment="Top" Height="90"
+                       Background="#D1CAFF">
+
+                <Image HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Margin="10" Width="275"
+                       Source="/Graphics/oceana full logo.png">
+                </Image>
+            <Button Name="btnlogout" 
+                    Content="Logout" FontSize="18"
+                    Height="40" Width="100" HorizontalAlignment="Right"
+                    Margin="50,0,40,0"
+                    BorderThickness="5" Background="White" BorderBrush="#707070">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </DockPanel>
+
+            <!--stackpanel for side bar with button for controls-->
+            <DockPanel Grid.Row="1" Grid.Column="0"
+                       Background="#746BAA">
+                <StackPanel Grid.Column="0" Grid.Row="0"
+                            Background="#746BAA"
+                 VerticalAlignment="Top" >
+
+                    <Label FontSize="20" Content="Welcome"
+                           Foreground="White"
+                           HorizontalContentAlignment="Center">
+                    </Label>
+                    <Label Name="lbluser"
+                           FontSize="20" 
+                           Foreground="White"
+                           HorizontalContentAlignment="Center">
+                    </Label>
+                
+                    <Button  Name="btnAddUser" Style="{StaticResource ResourceKey=menubutton}"
+                             HorizontalAlignment="Left" VerticalAlignment="Top"
+                             Height="55" Width="150"
+                              BorderThickness="0" Margin="10,10,0,0" RenderTransformOrigin="14.367,2.6">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Graphics/AddUser.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Button  x:Name="btnRemoveUser" Style="{StaticResource ResourceKey=menubutton}"
+                             HorizontalAlignment="Left" VerticalAlignment="Top"
+                             Height="55" Width="150"
+                              BorderThickness="0" Margin="10,10,0,0">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Graphics/RemoveUser.png"/>
+                        </Button.Background>
+                    </Button>
+
+                    <Button  Name="btnUpdateUserInfo" Style="{StaticResource ResourceKey=menubutton}"
+                             HorizontalAlignment="Left" VerticalAlignment="Top"
+                             Height="55" Width="150"
+                              BorderThickness="0" Margin="10,10,0,0">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Graphics/UpdateUserInformation.png"/>
+                        </Button.Background>
+                    </Button>
+
+                   
+                </StackPanel>
+            </DockPanel>
+            
+            <!--grid to display corresponding form when  menu button is clicked-->
+            <Grid Name="maingrid" Grid.Column="1" Grid.Row="1"/>
+            
+        </Grid>
+    
+</Window>
